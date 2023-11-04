@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(233, 233, 233);
+}
+
+header {
+    background-color: black;
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    opacity: 0.7;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 2rem;
+}
+nav h1{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    
+    
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    background: url("https://img.freepik.com/free-photo/brainstorming-planning-strategy-teamwork-collaboration-concept_53876-31577.jpg?w=900&t=st=1699084623~exp=1699085223~hmac=4f0bd0e6c4f0b2f1a4c034da5eb47aeb676bad24ee82b1fd7a67c0315a5ef02d") center/cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2.5rem 0rem;
+    background-color: rgba(148, 200, 43, 0.173);
+}
+
+.feature {
+    text-align: center;
+    padding: 1rem;
+    margin: 0rem 0.5rem;
+    max-width: 30rem;
+    background-color: rgb(223, 222, 222);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    height: 10rem;
+}
+.feature h4{
+    padding: 0.6rem;
+}
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 4rem 0rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0rem 2rem;
+    
+}
+.about-us{
+    display: flex;
+    flex-direction: column;
+    max-width: 40rem;
+    padding: 1rem;
+    
+}
+.about-us button{
+    width: 6rem;
+    margin: 2rem 0;
+    padding: 0.5rem;
+    font-weight: bold;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+.about-image img{
+    width: 100%;
+    border-radius: 0.4rem;
+}
+
+
+.our-services{
+    background-color: whitesmoke;
+}
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.service-image{
+    width: 20rem;
+    background-color: rgb(232, 232, 232);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.service-image button{
+    width: 10rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color: rgb(232, 235, 16);
+    font-weight: bold;
+}
+
+.service-image img{
+width: 18rem;
+height: 15rem;
+
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    height: 3rem;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
